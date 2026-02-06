@@ -1,21 +1,22 @@
-# Reconnaissance des émotions faciales en temps réel
+Real-Time Facial Emotion Recognition
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-1.13-orange)
-![Transformers](https://img.shields.io/badge/Transformers-HuggingFace-green)
 
-## 📄 Description
 
-Ce projet utilise la **caméra de votre ordinateur** pour détecter les **émotions du visage en temps réel**.  
-Il se base sur le modèle pré-entraîné **[abhilash88/face-emotion-detection](https://huggingface.co/abhilash88/face-emotion-detection)** de Hugging Face, entraîné sur le dataset FER2013.
 
-Le programme affiche **l’émotion détectée** et **le pourcentage de confiance** directement sur le flux vidéo.
 
----
 
-## 🔧 Prérequis
+📄 Description
 
-- Python 3.8 ou plus récent  
-- Bibliothèques Python nécessaires :
-```bash
+This project uses your computer’s webcam to detect facial emotions in real-time.
+It is based on the pre-trained model abhilash88/face-emotion-detection
+ from Hugging Face, trained on the FER2013 dataset.
+
+The program displays the detected emotion along with the confidence score directly on the video stream.
+
+🔧 Requirements
+
+Python 3.8 or higher
+
+Required Python libraries:
+
 pip install torch transformers pillow opencv-python
